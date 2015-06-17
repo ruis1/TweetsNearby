@@ -1,0 +1,20 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppTheme" parent="android:Theme.Holo">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@drawable/back</item>
+        <item name="dgts__accentColor">@color/blue</item>
+        <item name="android:textColorPrimary">@color/blue</item>
+    </style>
+    <style name="CustomTweetStyle" parent="tw__TweetDarkStyle">
+    	<item name="tw__primary_text_color">@color/white</item>
+    	<item name="tw__action_color">@color/white</item>
+    	<item name="tw__container_bg_color">#00000000</item>
+	</style>
+    
+</resources>
